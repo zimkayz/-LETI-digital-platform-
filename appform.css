@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@200&display=swap');
+html, body, {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color:black;
+    line-height: 1.5;
+}
+
+/*body font and size*/
+body {
+     font-family: 'Roboto Condensed', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color:black;
+    line-height: 1.5;
+}
+/*end of body font and size*/
+
+/*progress bar*/
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+
+body::-webkit-scrollbar {
+  width: 1em;
+  z-index: 100;
+  background-color:grey;
+  
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #05336e;
+  border-width: 2px 0 2px;
+  border-style: solid;
+  border-color: #6d6e71;
+  box-shadow: 0 -100vh 0 100vh #bb8d54;
+}
+/*end of progress bar*/
+
+.register{
+    background: -webkit-linear-gradient(left, #05336e, #bb8d54);
+    margin-top: 3%;
+    padding: 3%;
+}
+.register-left{
+    text-align: center;
+    color: #fff;
+    margin-top: 4%;
+}
+.register-left input{
+    border: none;
+    border-radius: 1.5rem;
+    padding: 2%;
+    width: 60%;
+    background: #f8f9fa;
+    font-weight: bold;
+    color: #383d41;
+    margin-top: 30%;
+    margin-bottom: 3%;
+    cursor: pointer;
+}
+.register-right{
+    background: #6d6e71;
+    border-top-left-radius: 10% 50%;
+    border-bottom-left-radius: 10% 50%;
+
+}
+.register-left img{
+    margin-top: 15%;
+    margin-bottom: 5%;
+    width: 25%;
+    -webkit-animation: mover 2s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+
+.tab-pane h3{
+    color: white;
+}
+.register-left p{
+    font-weight: lighter;
+    padding: 12%;
+    margin-top: -9%;
+}
+.register .register-form{
+    padding: 10%;
+    margin-top: 10%;
+}
+.btnApply{
+    float: right;
+    margin-top: 10%;
+    border: none;
+    border-radius: 1.5rem;
+    padding: 2%;
+    background: #0062cc;
+    color: #fff;
+    font-weight: 600;
+    width: 50%;
+    cursor: pointer;
+}
+
+.register-heading{
+    text-align: center;
+    margin-top: 8%;
+    margin-bottom: -15%;
+    color: #495057;
+}

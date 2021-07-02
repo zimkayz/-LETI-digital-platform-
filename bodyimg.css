@@ -1,0 +1,449 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@200&display=swap');
+html, body, .container {
+    height: 100%;
+}
+
+.wrapper_2 p {
+  color: white; 
+ font-family: 'Roboto Condensed', sans-serif;
+font-size:19.6px;
+line-height:27.44px;
+vertical-align:baseline;
+letter-spacing:normal;
+word-spacing:0px;
+margin:0px 0px 15px;
+padding:0px;
+font-weight:200;
+font-style:normal;
+font-variant:normal;
+text-transform:none;
+text-decoration:none solid rgb(51, 51, 51);
+text-align:start;
+text-indent:0px;
+}
+@supports (mix-blend-mode: screen) {
+  .wrapper_2 p {
+    mix-blend-mode: screen;
+    position: relative;
+  }
+  .wrapper_2 p::after {
+    background: linear-gradient(180deg, transparent, #000 3rem) no-repeat bottom center/100% 100%;
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    pointer-events: none;
+    transition: 0.5s ease-out;
+  }
+  .wrapper_2 p:hover::after {
+    background-size: 100% 0%;
+  }
+}
+
+/* Pen styling */
+
+.wrapper_2 {
+  background: #222 url(img/img1.jpg) 50% 50%/cover;
+  display: flex;
+  align-items: center;
+  font: 18px/1.5 "Roboto", sans-serif;
+  justify-content: center;
+  min-height: 10vh;
+  position: relative;
+  opacity: 0.8;
+}
+
+.wrapper_2::before {
+  background: rgb(5, 51, 110);
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0.7;
+}
+
+.wrapper_2 h1 {
+ background-color:rgba(0, 0, 0, 0) ;
+ font-family: 'Roboto Condensed', sans-serif;
+font-size:30.8px;
+ine-height:33.88px;
+vertical-align:baseline;
+letter-spacing:normal;
+word-spacing:0px;
+margin:0px 0px 10px;
+padding:0px;
+font-weight:500;
+font-style:normal;
+font-variant:normal;
+text-transform:none;
+text-decoration:none solid rgb(51, 51, 51);
+text-align:start;
+text-indent:0px;
+}
+
+.content_2 {
+  color: white;
+  max-width: 600px;
+  text-align: center;
+  position: relative;
+}
+
+/*background and text animation of body text */
+/*distance events and grants*/
+.wrapper_3 p {
+  color: white; 
+ font-family: 'Roboto Condensed', sans-serif;
+font-size:19.6px;
+line-height:27.44px;
+vertical-align:baseline;
+letter-spacing:normal;
+word-spacing:0px;
+margin:0px 0px 15px;
+padding:0px;
+font-weight:200;
+font-style:normal;
+font-variant:normal;
+text-transform:none;
+text-decoration:none solid rgb(51, 51, 51);
+text-align:start;
+text-indent:0px;
+}
+@supports (mix-blend-mode: screen) {
+  .wrapper_3 p {
+    mix-blend-mode: screen;
+    position: relative;
+  }
+  .wrapper_3 p::after {
+    background: linear-gradient(180deg, transparent, #000 3rem) no-repeat bottom center/100% 100%;
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    pointer-events: none;
+    transition: 0.5s ease-out;
+  }
+  .wrapper_3 p:hover::after {
+    background-size: 100% 0%;
+  }
+}
+.wrapper_3 {
+  background: #222 url(img/img4.jpg) 50% 50%/cover;
+  display: flex;
+  align-items: center;
+  font: 18px/1.5 "Roboto", sans-serif;
+  justify-content: center;
+  min-height: 10vh;
+  position: relative;
+  opacity: 0.8;
+}
+
+.wrapper_3::before {
+  background: rgb(5, 51, 110);
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0.7;
+}
+
+.wrapper_3 h1 {
+ background-color:rgba(0, 0, 0, 0) ;
+ font-family: 'Roboto Condensed', sans-serif;
+font-size:30.8px;
+ine-height:33.88px;
+vertical-align:baseline;
+letter-spacing:normal;
+word-spacing:0px;
+margin:0px 0px 10px;
+padding:0px;
+font-weight:500;
+font-style:normal;
+font-variant:normal;
+text-transform:none;
+text-decoration:none solid rgb(51, 51, 51);
+text-align:start;
+text-indent:0px;
+}
+
+.content_3 {
+  color: white;
+  max-width: 600px;
+  text-align: center;
+  position: relative;
+}
+
+
+
+/*background and text animation of body text */
+/*libary and publications*/
+.wrapper_4 p {
+  color: white; 
+ font-family: 'Roboto Condensed', sans-serif;
+font-size:19.6px;
+line-height:27.44px;
+vertical-align:baseline;
+letter-spacing:normal;
+word-spacing:0px;
+margin:0px 0px 15px;
+padding:0px;
+font-weight:200;
+font-style:normal;
+font-variant:normal;
+text-transform:none;
+text-decoration:none solid rgb(51, 51, 51);
+text-align:start;
+text-indent:0px;
+}
+@supports (mix-blend-mode: screen) {
+  .wrapper_4 p {
+    mix-blend-mode: screen;
+    position: relative;
+  }
+  .wrapper_4 p::after {
+    background: linear-gradient(180deg, transparent, #000 3rem) no-repeat bottom center/100% 100%;
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    pointer-events: none;
+    transition: 0.5s ease-out;
+  }
+  .wrapper_4 p:hover::after {
+    background-size: 100% 0%;
+  }
+}
+.wrapper_4 {
+  background: #222 url(img/img.jpg) 50% 50%/cover;
+  display: flex;
+  align-items: center;
+  font: 18px/1.5 "Roboto", sans-serif;
+  justify-content: center;
+  min-height: 10vh;
+  position: relative;
+  opacity: 0.8;
+}
+
+.wrapper_4::before {
+  background: rgb(5, 51, 110);
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0.7;
+}
+
+.wrapper_4 h1 {
+ background-color:rgba(0, 0, 0, 0) ;
+ font-family: 'Roboto Condensed', sans-serif;
+font-size:30.8px;
+ine-height:33.88px;
+vertical-align:baseline;
+letter-spacing:normal;
+word-spacing:0px;
+margin:0px 0px 10px;
+padding:0px;
+font-weight:500;
+font-style:normal;
+font-variant:normal;
+text-transform:none;
+text-decoration:none solid rgb(51, 51, 51);
+text-align:start;
+text-indent:0px;
+}
+
+.content_4 {
+  color: white;
+  max-width: 600px;
+  text-align: center;
+  position: relative;
+}
+
+/*background and text animation of body text */
+/*lessons and Timetable*/
+.wrapper_5 p {
+  color: white; 
+ font-family: 'Roboto Condensed', sans-serif;
+font-size:19.6px;
+line-height:27.44px;
+vertical-align:baseline;
+letter-spacing:normal;
+word-spacing:0px;
+margin:0px 0px 15px;
+padding:0px;
+font-weight:200;
+font-style:normal;
+font-variant:normal;
+text-transform:none;
+text-decoration:none solid rgb(51, 51, 51);
+text-align:start;
+text-indent:0px;
+}
+@supports (mix-blend-mode: screen) {
+  .wrapper_4 p {
+    mix-blend-mode: screen;
+    position: relative;
+  }
+  .wrapper_4 p::after {
+    background: linear-gradient(180deg, transparent, #000 3rem) no-repeat bottom center/100% 100%;
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    pointer-events: none;
+    transition: 0.5s ease-out;
+  }
+  .wrapper_4 p:hover::after {
+    background-size: 100% 0%;
+  }
+}
+.wrapper_4 {
+  background: #222 url(img/img3.jpg) 50% 50%/cover;
+  display: flex;
+  align-items: center;
+  font: 18px/1.5 "Roboto", sans-serif;
+  justify-content: center;
+  min-height: 10vh;
+  position: relative;
+  opacity: 0.8;
+}
+
+.wrapper_4::before {
+  background: rgb(5, 51, 110);
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0.7;
+}
+
+.wrapper_4 h1 {
+ background-color:rgba(0, 0, 0, 0) ;
+ font-family: 'Roboto Condensed', sans-serif;
+font-size:30.8px;
+ine-height:33.88px;
+vertical-align:baseline;
+letter-spacing:normal;
+word-spacing:0px;
+margin:0px 0px 10px;
+padding:0px;
+font-weight:500;
+font-style:normal;
+font-variant:normal;
+text-transform:none;
+text-decoration:none solid rgb(51, 51, 51);
+text-align:start;
+text-indent:0px;
+}
+
+.content_4 {
+  color: white;
+  max-width: 600px;
+  text-align: center;
+  position: relative;
+}
+
+
+
+/*background and text animation of body text */
+/*lessons and exam timetable*/
+.wrapper_5 p {
+  color: white; 
+ font-family: 'Roboto Condensed', sans-serif;
+font-size:19.6px;
+line-height:27.44px;
+vertical-align:baseline;
+letter-spacing:normal;
+word-spacing:0px;
+margin:0px 0px 15px;
+padding:0px;
+font-weight:200;
+font-style:normal;
+font-variant:normal;
+text-transform:none;
+text-decoration:none solid rgb(51, 51, 51);
+text-align:start;
+text-indent:0px;
+}
+@supports (mix-blend-mode: screen) {
+  .wrapper_5 p {
+    mix-blend-mode: screen;
+    position: relative;
+  }
+  .wrapper_5 p::after {
+    background: linear-gradient(180deg, transparent, #000 3rem) no-repeat bottom center/100% 100%;
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    pointer-events: none;
+    transition: 0.8s ease-out;
+  }
+  .wrapper_5 p:hover::after {
+    background-size: 100% 0%;
+  }
+}
+.wrapper_5 {
+  background: #222 url(img/img2.jpg) 50% 50%/cover;
+  display: flex;
+  align-items: center;
+  font: 18px/1.5 "Roboto", sans-serif;
+  justify-content: center;
+  min-height: 10vh;
+  position: relative;
+  opacity: 0.8;
+}
+
+.wrapper_5::before {
+  background: rgb(5, 51, 110);
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0.7;
+}
+
+.wrapper_5 h1 {
+ background-color:rgba(0, 0, 0, 0) ;
+ font-family: 'Roboto Condensed', sans-serif;
+font-size:30.8px;
+ine-height:33.88px;
+vertical-align:baseline;
+letter-spacing:normal;
+word-spacing:0px;
+margin:0px 0px 10px;
+padding:0px;
+font-weight:500;
+font-style:normal;
+font-variant:normal;
+text-transform:none;
+text-decoration:none solid rgb(51, 51, 51);
+text-align:start;
+text-indent:0px;
+}
+
+.content_5 {
+  color: white;
+  max-width: 600px;
+  text-align: center;
+  position: relative;
+}

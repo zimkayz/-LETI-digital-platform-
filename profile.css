@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@200&display=swap');
+
+
+/*body font and size*/
+body {
+     font-family: 'Roboto Condensed', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color:black;
+    line-height: 1.5;
+}
+
+
+/*progress bar*/
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+
+body::-webkit-scrollbar {
+  width: 1em;
+  z-index: 100;
+  background-color:grey;
+  
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #05336e;
+  border-width: 2px 0 2px;
+  border-style: solid;
+  border-color: #6d6e71;
+  box-shadow: 0 -100vh 0 100vh #bb8d54;
+}
+/*end of progress bar*/
+
+
+.our-team{
+    text-align: center;
+    position: relative;
+}
+.our-team .pic{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 8px solid #05336e;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.our-team img{
+    width: 100%;
+    height: auto;
+}
+.our-team .social{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    transition: all 0.3s ease-out 0s;
+}
+.our-team .social li a{
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    background: #05336e;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 5px;
+    transform: scale(0);
+    transition: all 0.2s ease 0s;
+}
+.our-team:hover .social li a{ transform: scale(1); }
+.our-team:hover .social li a:hover{ background: #bb8d54; }
+.our-team .team-content{
+    padding: 15px 15px 20px;
+    background: #bb8d54;
+    border-radius: 40px 10px;
+    margin-top: -20px;
+    color: #fff;
+}
+.our-team .title{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px 0 5px 0;
+}
+.our-team .post{
+    display: block;
+    font-size: 14px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.our-team .description{
+    padding: 20px;
+    background: #fff;
+    border-radius: 20px;
+    font-size: 16px;
+    color: #666;
+    line-height: 30px;
+    margin-bottom: 0;
+}
+@media only screen and (max-width: 990px){
+    .our-team{ margin-bottom: 30px; }
+}
+@media only screen and (max-width: 359px){
+    .our-team .pic{
+        width: 150px;
+        height: 150px;
+    }
+    .our-team .social{ top: 20px; }
+}
